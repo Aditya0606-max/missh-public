@@ -1,0 +1,16 @@
+Waiting on bqjob_r1d19f54cb906a11d_000001a1beec8a41_1 ... (0s) Current status: RUNNING                                                                                      Waiting on bqjob_r1d19f54cb906a11d_000001a1beec8a41_1 ... (0s) Current status: DONE   
++----------------------------------+-------+
+|               row_               | stays |
++----------------------------------+-------+
+| TOTAL                            | 19514 |
+| Ajay                             |  9905 |
+| arrived on support               |  3578 |
+| Naveen                           |  2489 |
+| Kranthi                          |   993 |
+| died without escalation          |   976 |
+| Sundar                           |   876 |
+| grey zone (3-5 h)                |   507 |
+| no tip, discharge status missing |   140 |
+| mixed                            |    42 |
+| planned early escalation         |     8 |
++----------------------------------+-------+

@@ -1,0 +1,19 @@
++----------+----------+-----+----------------+---------------+
+| who_off  | who_new  |  n  | with_tube_sign | settings_only |
++----------+----------+-----+----------------+---------------+
+| Ajay     | Sundar   | 395 |             20 |           375 |
+| Ajay     | Naveen   | 299 |             18 |           281 |
+| Naveen   | excluded | 227 |             50 |           177 |
+| Ajay     | excluded | 107 |              3 |           104 |
+| excluded | Naveen   | 100 |             18 |            82 |
+| excluded | Sundar   |  55 |              4 |            51 |
+| Sundar   | Naveen   |  44 |             25 |            19 |
+| Kranthi  | Naveen   |  40 |             12 |            28 |
+| Kranthi  | Sundar   |  31 |             12 |            19 |
+| Sundar   | excluded |  30 |             10 |            20 |
+| Kranthi  | mixed    |  27 |             10 |            17 |
+| Kranthi  | excluded |  24 |              3 |            21 |
+| mixed    | Naveen   |   6 |              4 |             2 |
+| mixed    | Sundar   |   4 |              2 |             2 |
+| mixed    | excluded |   2 |              1 |             1 |
++----------+----------+-----+----------------+---------------+

@@ -1,0 +1,43 @@
+eICU table: 600 stays, 16944 hours; by group: {'Ajay': 366, 'Kranthi': 58, 'Naveen': 81, 'Sundar': 58, 'mixed': 37}
+Frozen alarm Ajay cost 1.19/day | full NEWS line 9.33, cost 1.07/day
+Effort-only variant Ajay cost 1.19/day
+
+PRIMARY  Kranthis 58: architecture 0.931 (27.5 h) | full NEWS 0.707 (28.7 h) | difference +0.224 | discordant arch-only 15, NEWS-only 2, z 3.15
+
+  Kranthi  arch 0.93 (27.5 h, through 0.07) | newsA 0.71 (28.7 h, through 0.29) | arch_e 0.93 (27.5 h, through 0.07)
+  Sundar   arch 0.76 (22.9 h, through 0.24) | newsA 0.69 (18.5 h, through 0.31) | arch_e 0.76 (22.9 h, through 0.24)
+  mixed    arch 0.68 (28.0 h, through 0.32) | newsA 0.78 (25.2 h, through 0.22) | arch_e 0.68 (28.0 h, through 0.32)
+WHOLE-WARD TOTAL: architecture 123 | full NEWS 110 | effort-only 123
+
+SUNDAR by oxygen-recorded share: <25% n0: arch nan, NEWS nan | 25-50% n1: arch 0.00, NEWS 1.00 | 50-75% n0: arch nan, NEWS nan | >75% n57: arch 0.77, NEWS 0.68
+FIRST READING (all warned): pressure 1.00
+ON IMPROVING (architecture): 0.55 of alarm episodes started while improving
+ON IMPROVING (full NEWS): 0.62 of alarm episodes started while improving
+LOAD: architecture 12.1 ambers per 20-bed 12-h shift | full NEWS 11.1
+
+low-SI Kranthis: n 15, architecture 0.87 (29.8 h), full NEWS 0.80
+sudden slippers: n 0, architecture nan (nan h), full NEWS nan
+
+==== EXPLORATORY: re-check red (amber still present 3 h after each amber episode starts) ====
+Red cost per Ajay-day: architecture re-check 0.099 | NEWS re-check 0.142 | NEWS alone (line 11.39) 0.039
+  architecture re-check    Kranthi 0.19 (22.9 h) | Sundar 0.16 (18.0 h) | mixed 0.05 (11.6 h) | TOTAL 22
+  NEWS re-check            Kranthi 0.14 (23.3 h) | Sundar 0.12 (15.2 h) | mixed 0.24 (22.2 h) | TOTAL 24
+  NEWS alone, same cost    Kranthi 0.02 (7.0 h) | Sundar 0.03 (34.8 h) | mixed 0.11 (33.7 h) | TOTAL 7
+
+==== NAVEEN (eICU) ====
+  Naveens 81: caught before tip 0.38 (median 1.9 h)
+    pressor first  n   22: caught 0.41
+    both           n   20: caught 0.30
+    vent first     n   39: caught 0.41
+
+==== NEWS re-check, matched cost (comparator) ====
+  NEWS amber line 9.67, re-check red cost 0.084 (architecture 0.099)
+  NEWS re-check, matched  Kranthi 0.05 (23.9 h) | Sundar 0.07 (21.5 h) | mixed 0.19 (17.7 h) | TOTAL 14
+
+==== SECONDARY: S/F-forward versions (previously tested, no new tuning) ====
+A (C16c): pressure 1.5 | S/F 247.5: Ajay cost 2.24 | full NEWS matched line 5.33, cost 2.14
+  version    Kranthi 1.00 (34.3 h) | Sundar 0.98 (26.3 h) | mixed 1.00 (32.2 h) | TOTAL 152 | Sundar by O2 band: <25% nan, 25-50% 1.00, 50-75% nan, >75% 0.98
+  full NEWS  Kranthi 1.00 (31.9 h) | Sundar 0.98 (24.7 h) | mixed 1.00 (31.0 h) | TOTAL 152 | Sundar by O2 band: <25% nan, 25-50% 1.00, 50-75% nan, >75% 0.98
+B (C16i): pressure 1.5 | S/F 209 | RR 23.3: Ajay cost 1.25 | full NEWS matched line 9.33, cost 1.07
+  version    Kranthi 0.97 (24.7 h) | Sundar 0.86 (22.2 h) | mixed 0.81 (27.0 h) | TOTAL 136 | Sundar by O2 band: <25% nan, 25-50% 1.00, 50-75% nan, >75% 0.86
+  full NEWS  Kranthi 0.71 (28.7 h) | Sundar 0.69 (18.5 h) | mixed 0.78 (25.2 h) | TOTAL 110 | Sundar by O2 band: <25% nan, 25-50% 1.00, 50-75% nan, >75% 0.68

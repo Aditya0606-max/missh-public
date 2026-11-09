@@ -79,3 +79,19 @@ Prediction fixed now: never_high has higher shares of CVICU, elective/surgical a
 sedation before tip and beta-blockers than pressor strain and sick stable.
 If so: the "silent heart" is largely a different patient type (post-surgical, sedated or
 beta-blocked), not a hidden septic route. If not: it remains a candidate septic route.
+
+## Check C7 (written before running, 2026-11-06)
+Breathing route: oxygen need (S/F, ROX). Groups from missh.c6_groups (vent-first Kranthis,
+pressor groups, sick stable with pseudo-tip); hours -8 to -1 before tip.
+Hourly from MIMIC-IV chartevents: FiO2 (itemid 223835, max per hour, % converted to fraction),
+O2 flow (223834), O2 device (226732). Device, flow and charted FiO2 carried forward <= 4 h
+(settings persist); SpO2 and RR never carried. FiO2 used: charted FiO2 if present; else room
+air / "None" = 0.21; else nasal cannula = min(0.21 + 0.04 x flow, 0.45); else missing.
+S/F = SpO2 / FiO2 (flag hours with SpO2 > 97, where S/F is less informative). ROX = S/F / RR.
+Sick stable split: on oxygen (max FiO2 >= 0.28 in window) vs room air.
+Per patient: slopes of S/F, ROX, RR; FiO2 steps (hour-to-hour rise >= 0.05); "step again"
+= another step within 3 h; S/F drops (>= 10% hour to hour) answered by RR (+2 within 2 h)
+or HR (+5 within 2 h); no staircase = zero FiO2 steps.
+Prediction fixed now: vent-first Kranthis vs sick stable on oxygen show falling S/F and ROX,
+more FiO2 steps, more "step again". Expected: a vent-first subgroup with no staircase
+(possible airway-protection intubations). Answering compared descriptively.

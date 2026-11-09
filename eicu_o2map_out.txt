@@ -1,0 +1,55 @@
++---------------+------------------------------+--------------------------------+--------+
+|     part      |             src              |             value              |   n    |
++---------------+------------------------------+--------------------------------+--------+
+| A device text | nurse: O2 Admin Device       | ventilator                     |  54689 |
+| A device text | nurse: O2 Admin Device       | nasal cannula                  |  47039 |
+| A device text | nurse: O2 Admin Device       | ra                             |  12145 |
+| A device text | nurse: O2 Admin Device       | bipap/cpap                     |   6618 |
+| A device text | nurse: O2 Admin Device       | vent                           |   3631 |
+| A device text | nurse: O2 Admin Device       | trach collar                   |   3607 |
+| A device text | nurse: O2 Admin Device       | venturi mask                   |   2655 |
+| A device text | nurse: O2 Admin Device       | nc                             |   2219 |
+| A device text | nurse: O2 Admin Device       | room air                       |   2139 |
+| A device text | nurse: O2 Admin Device       | non-rebreather                 |   1917 |
+| A device text | nurse: O2 Admin Device       | hfnc                           |    942 |
+| A device text | nurse: O2 Admin Device       | bipap                          |    912 |
+| A device text | nurse: O2 Admin Device       | oxymask                        |    827 |
+| A device text | nurse: O2 Admin Device       | cool aerosol mask              |    681 |
+| A device text | nurse: O2 Admin Device       | other                          |    610 |
+| A device text | nurse: O2 Admin Device       | oxymizer                       |    578 |
+| A device text | nurse: O2 Admin Device       | cpap                           |    518 |
+| A device text | nurse: O2 Admin Device       | r/a                            |    478 |
+| A device text | nurse: O2 Admin Device       | tc                             |    472 |
+| A device text | nurse: O2 Admin Device       | oximizer                       |    330 |
+| A device text | nurse: O2 Admin Device       | high flow                      |    319 |
+| A device text | resp: O2 Device              | nasal cannula                  |  20020 |
+| A device text | resp: O2 Device              | ventilator                     |  19706 |
+| A device text | resp: O2 Device              | none (room air)                |  16251 |
+| A device text | resp: O2 Device              | high flow nasal cannula        |   6385 |
+| A device text | resp: O2 Device              | bi-pap                         |   4081 |
+| A device text | resp: O2 Device              | heated high flow nasal cannula |   1228 |
+| A device text | resp: O2 Device              | trach mask/collar              |   1026 |
+| A device text | resp: O2 Device              | cpap                           |    683 |
+| A device text | resp: O2 Device              | non-rebreather mask            |    629 |
+| A device text | resp: O2 Device              | face mask                      |    574 |
+| A device text | resp: O2 Device              | other (comment)                |    532 |
+| A device text | resp: O2 Device              | simple mask                    |    206 |
+| A device text | resp: Oxygen Delivery Method | nasal cannula                  |   1016 |
+| A device text | resp: Oxygen Delivery Method | mechanical ventilator          |    932 |
+| A device text | resp: Oxygen Delivery Method | room air                       |    660 |
+| A device text | resp: Oxygen Delivery Method | bipap                          |    288 |
+| B numbers     | nurse: O2 L/%                | 1-15 (litres?)                 | 133970 |
+| B numbers     | nurse: O2 L/%                | 21-100 (percent)               |  75627 |
+| B numbers     | nurse: O2 L/%                | 0-1 (fraction)                 |   6694 |
+| B numbers     | nurse: O2 L/%                | 15-21                          |    425 |
+| B numbers     | nurse: O2 L/%                | >100                           |     10 |
+| B numbers     | resp: FIO2 (%)               | 21-100 (percent)               |  26728 |
+| B numbers     | resp: FIO2 (%)               | 1-15 (litres?)                 |     71 |
+| B numbers     | resp: FIO2 (%)               | >100                           |      2 |
+| B numbers     | resp: FIO2 (%)               | 0-1 (fraction)                 |      2 |
+| B numbers     | resp: FiO2                   | 21-100 (percent)               | 443814 |
+| B numbers     | resp: FiO2                   | 1-15 (litres?)                 |   1942 |
+| B numbers     | resp: FiO2                   | 0-1 (fraction)                 |   1763 |
+| B numbers     | resp: FiO2                   | >100                           |     56 |
+| B numbers     | resp: FiO2                   | 15-21                          |     33 |
++---------------+------------------------------+--------------------------------+--------+
