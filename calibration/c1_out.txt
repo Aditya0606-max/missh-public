@@ -1,0 +1,27 @@
+Tip present per group:
+ who
+Ajay       5093/5093
+Kranthi      475/475
+Sundar     1294/1294
+mixed        562/562
+Name: tip, dtype: str 
+
+No usable window: {'Ajay': 0, 'Kranthi': 0, 'Sundar': 0, 'mixed': 0} 
+
+Share of watched hours with >=1 reading (mean per stay):
+          stays  hours_median    hr    bp    rr  spo2
+who                                                 
+Ajay      5031          13.0  0.87  0.85  0.86  0.85
+Kranthi    470          12.0  0.81  0.80  0.80  0.78
+Sundar    1270          17.0  0.72  0.71  0.71  0.71
+mixed      555           8.0  0.42  0.41  0.41  0.41 
+
+Ratio to Ajay:
+            hr    bp    rr  spo2
+who                            
+Ajay     1.00  1.00  1.00  1.00
+Kranthi  0.93  0.94  0.93  0.92
+Sundar   0.83  0.84  0.83  0.84
+mixed    0.48  0.48  0.48  0.48 
+
+FLAGS (>=25% from Ajay): {('Ajay', 'hr'): nan, ('Ajay', 'bp'): nan, ('Ajay', 'rr'): nan, ('Ajay', 'spo2'): nan, ('Kranthi', 'hr'): nan, ('Kranthi', 'bp'): nan, ('Kranthi', 'rr'): nan, ('Kranthi', 'spo2'): nan, ('Sundar', 'hr'): nan, ('Sundar', 'bp'): nan, ('Sundar', 'rr'): nan, ('Sundar', 'spo2'): nan, ('mixed', 'hr'): 0.48, ('mixed', 'bp'): 0.48, ('mixed', 'rr'): 0.48, ('mixed', 'spo2'): 0.48}

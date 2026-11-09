@@ -1,0 +1,10 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Guardian lines (only 1% of Ajays ever hold a 3-h average beyond these): {'MAP <=': np.float64(42.3), 'SI >=': np.float64(1.49), 'S/F <=': np.float64(90.0)} 
+
+  Ajay     n  5031 | MAP 0.01 | SI 0.01 | S/F 0.01 | ANY 0.03
+  Kranthi  n   470 | MAP 0.05 (2.8 h) | SI 0.07 (3.2 h) | S/F 0.02 (7.7 h) | ANY 0.13 (4.3 h before tip)
+  Sundar   n  1270 | MAP 0.01 (7.4 h) | SI 0.01 (12.6 h) | S/F 0.04 (3.9 h) | ANY 0.06 (6.9 h before tip)
+  mixed    n   555 | MAP 0.02 (9.0 h) | SI 0.02 (4.9 h) | S/F 0.01 (4.3 h) | ANY 0.04 (5.0 h before tip)
+  Naveen   n  2266 | MAP 0.00 (0.9 h) | SI 0.01 (0.9 h) | S/F 0.00 (nan h) | ANY 0.01 (0.9 h before tip)

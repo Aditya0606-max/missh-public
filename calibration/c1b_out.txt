@@ -1,0 +1,15 @@
+First charted hour (median, 75th pct):
+          50%  75%
+who              
+Ajay     1.0  1.0
+Kranthi  1.0  1.0
+Sundar   0.0  1.0
+mixed    0.0  2.0 
+
+Share of hours with readings, by half of window:
+ half     first half  second half
+who                             
+Ajay           0.99         0.99
+Kranthi        0.98         0.99
+Sundar         0.97         0.94
+mixed          0.87         0.75

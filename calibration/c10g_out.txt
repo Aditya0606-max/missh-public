@@ -1,0 +1,29 @@
+==== Rule E' share firing per hour ====
+grp           Ajay  Kranthi neither  Kranthi silent heart  Kranthi straining pump  Kranthi unreadable
+h before tip                                                                                         
+11            0.08             0.07                  0.04                    0.07                0.00
+10            0.08             0.08                  0.09                    0.11                0.12
+9             0.07             0.13                  0.05                    0.06                0.00
+8             0.07             0.09                  0.11                    0.00                0.06
+7             0.06             0.08                  0.10                    0.00                0.12
+6             0.07             0.10                  0.11                    0.27                0.11
+5             0.07             0.15                  0.08                    0.23                0.08
+4             0.08             0.15                  0.10                    0.17                0.31
+3             0.07             0.13                  0.10                    0.14                0.00
+2             0.08             0.04                  0.27                    0.30                0.00
+1             0.07             0.06                  0.43                    0.24                0.00
+0             0.07             0.10                  0.34                    0.19                0.00
+
+==== All Kranthis (n=408) vs Ajays (n=5031) ====
+  8 h before, rule A : Kranthi caught 0.16, Ajay false 0.054, precision 0.20
+  8 h before, rule E : Kranthi caught 0.05, Ajay false 0.016, precision 0.19
+  8 h before, rule E2: Kranthi caught 0.09, Ajay false 0.065, precision 0.10
+     silent heart only: E2 0.11 vs A 0.16
+  4 h before, rule A : Kranthi caught 0.26, Ajay false 0.046, precision 0.31
+  4 h before, rule E : Kranthi caught 0.09, Ajay false 0.013, precision 0.35
+  4 h before, rule E2: Kranthi caught 0.14, Ajay false 0.081, precision 0.12
+     silent heart only: E2 0.10 vs A 0.17
+  2 h before, rule A : Kranthi caught 0.34, Ajay false 0.046, precision 0.38
+  2 h before, rule E : Kranthi caught 0.12, Ajay false 0.017, precision 0.36
+  2 h before, rule E2: Kranthi caught 0.14, Ajay false 0.077, precision 0.13
+     silent heart only: E2 0.27 vs A 0.35

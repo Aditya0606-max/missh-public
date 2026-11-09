@@ -1,0 +1,9 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Naveens 2266: first-reading road median 0.26; already >= 0.5 at first reading 0.33; max one-hour jump median 0.07
+C14g Kranthis, max one-hour jump in last 3 h (median): {'caught early': 0.29, 'sudden slippers': 0.29}
+
+Jump rule (J 0.90, Ajay 0.20 h/day): Naveens caught 0.01, median lead 0.4 h
+Arrival rule (max road in first 3 h >= 1.04; flags 0.10 of arriving Ajays): Naveens caught 0.11, median lead 0.7 h; Kranthis flagged at arrival 0.30
+Arrival OR jump: Naveens caught 0.11

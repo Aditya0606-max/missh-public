@@ -1,0 +1,22 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Breathing anchors recovery: {'sf': 290.91, 'rr': 19.0, 'F': 0.33} | failure end (Sundar): {'sf': 100.0, 'rr': 20.0, 'F': 0.85}
+FiO2 source share of hours: {'Ajay': {'charted': 0.14, 'estimated': 0.56, 'none': 0.3}, 'Kranthi': {'charted': 0.15, 'estimated': 0.59, 'none': 0.26}, 'Sundar': {'charted': 0.31, 'estimated': 0.48, 'none': 0.21}, 'mixed': {'charted': 0.15, 'estimated': 0.51, 'none': 0.33}} 
+
+==== Budget 0.44 episodes per Ajay-day ====
+  breathing road  cost 0.44 | Sundar 0.36 (12.3 h) | Kranthi 0.24 (11.5 h) | mixed 0.40 (0.7 h)
+  pressure road   cost 0.44 | Sundar 0.21 (15.7 h) | Kranthi 0.62 (6.5 h) | mixed 0.19 (11.2 h)
+  NEWS-lite       cost 0.26 | Sundar 0.27 (14.5 h) | Kranthi 0.36 (7.1 h) | mixed 0.15 (9.4 h)
+  NEWS with O2    cost 0.23 | Sundar 0.26 (14.9 h) | Kranthi 0.33 (7.0 h) | mixed 0.15 (9.3 h)
+  ROX             cost 0.43 | Sundar 0.44 (11.6 h) | Kranthi 0.26 (9.5 h) | mixed 0.21 (7.4 h)
+  S/F             cost 0.44 | Sundar 0.57 (9.2 h) | Kranthi 0.30 (9.2 h) | mixed 0.33 (2.5 h)
+
+==== Budget 1.0 episodes per Ajay-day ====
+  breathing road  cost 1.00 | Sundar 0.71 (12.3 h) | Kranthi 0.51 (10.3 h) | mixed 0.63 (0.9 h)
+  pressure road   cost 1.00 | Sundar 0.44 (15.6 h) | Kranthi 0.83 (8.8 h) | mixed 0.37 (11.1 h)
+  NEWS-lite       cost 0.63 | Sundar 0.43 (15.1 h) | Kranthi 0.53 (8.8 h) | mixed 0.22 (12.1 h)
+  NEWS with O2    cost 0.54 | Sundar 0.40 (15.4 h) | Kranthi 0.49 (8.2 h) | mixed 0.21 (12.1 h)
+  ROX             cost 0.99 | Sundar 0.62 (13.6 h) | Kranthi 0.47 (9.1 h) | mixed 0.33 (9.3 h)
+  S/F             cost 0.97 | Sundar 0.72 (13.6 h) | Kranthi 0.58 (9.0 h) | mixed 0.45 (8.1 h)
+

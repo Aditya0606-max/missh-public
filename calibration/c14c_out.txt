@@ -1,0 +1,12 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Pools: {'Ajay': 5031, 'Kranthi': 469, 'Naveen': 2266}
+
+==== Ward 30/30/30, top 5% red each hour ====
+  road (3-h)       Kranthi red before tip 0.43, lead 6.5 h | Naveen red before tip 0.07, lead 1.0 h | red slots Ajay 0.18, Kranthi 0.79, Naveen 0.03 | Ajay red episodes/Ajay-day 0.26
+  NEWS-lite (3-h)  Kranthi red before tip 0.39, lead 8.6 h | Naveen red before tip 0.08, lead 1.0 h | red slots Ajay 0.19, Kranthi 0.77, Naveen 0.04 | Ajay red episodes/Ajay-day 0.33
+
+==== Ward real mix {'Ajay': 65, 'Kranthi': 6, 'Naveen': 29}, top 5% red each hour ====
+  road (3-h)       Kranthi red before tip 0.60, lead 6.6 h | Naveen red before tip 0.09, lead 1.0 h | red slots Ajay 0.69, Kranthi 0.27, Naveen 0.04 | Ajay red episodes/Ajay-day 0.46
+  NEWS-lite (3-h)  Kranthi red before tip 0.53, lead 8.2 h | Naveen red before tip 0.10, lead 0.8 h | red slots Ajay 0.73, Kranthi 0.23, Naveen 0.04 | Ajay red episodes/Ajay-day 0.54

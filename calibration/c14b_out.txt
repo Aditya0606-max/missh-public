@@ -1,0 +1,37 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Budget = false alarm episodes per Ajay-day. Lead = median hours before tip among warned.
+
+==== Budget 0.2 ====
+  road    line    1.28 (actual cost 0.20)  Kranthi warned 0.45  lead   4.4 h  before 1st bolus 0.58  | Sundar warned 0.09
+  road3   line    1.10 (actual cost 0.20)  Kranthi warned 0.45  lead   5.8 h  before 1st bolus 0.63  | Sundar warned 0.09
+  si      line    1.24 (actual cost 0.20)  Kranthi warned 0.37  lead   5.2 h  before 1st bolus 0.61  | Sundar warned 0.13
+  negmap  line  -47.00 (actual cost 0.19)  Kranthi warned 0.35  lead   4.6 h  before 1st bolus 0.56  | Sundar warned 0.10
+  news    line    9.00 (actual cost 0.10)  Kranthi warned 0.18  lead   7.8 h  before 1st bolus 0.62  | Sundar warned 0.12
+  news3   line    7.33 (actual cost 0.12)  Kranthi warned 0.23  lead   6.6 h  before 1st bolus 0.65  | Sundar warned 0.17
+
+==== Budget 0.44 ====
+  road    line    1.14 (actual cost 0.43)  Kranthi warned 0.59  lead   5.8 h  before 1st bolus 0.69  | Sundar warned 0.16
+  road3   line    0.91 (actual cost 0.44)  Kranthi warned 0.62  lead   6.5 h  before 1st bolus 0.72  | Sundar warned 0.21
+  si      line    1.13 (actual cost 0.43)  Kranthi warned 0.51  lead   6.8 h  before 1st bolus 0.72  | Sundar warned 0.22
+  negmap  line  -51.00 (actual cost 0.41)  Kranthi warned 0.55  lead   5.5 h  before 1st bolus 0.62  | Sundar warned 0.18
+  news    line    8.00 (actual cost 0.26)  Kranthi warned 0.36  lead   7.1 h  before 1st bolus 0.62  | Sundar warned 0.27
+  news3   line    6.33 (actual cost 0.29)  Kranthi warned 0.40  lead   7.2 h  before 1st bolus 0.69  | Sundar warned 0.32
+
+==== Budget 1.0 ====
+  road    line    0.89 (actual cost 1.00)  Kranthi warned 0.77  lead   7.5 h  before 1st bolus 0.80  | Sundar warned 0.32
+  road3   line    0.53 (actual cost 1.00)  Kranthi warned 0.83  lead   8.8 h  before 1st bolus 0.89  | Sundar warned 0.44
+  si      line    0.99 (actual cost 1.00)  Kranthi warned 0.69  lead   7.5 h  before 1st bolus 0.82  | Sundar warned 0.38
+  negmap  line  -56.67 (actual cost 0.90)  Kranthi warned 0.73  lead   7.0 h  before 1st bolus 0.74  | Sundar warned 0.29
+  news    line    7.00 (actual cost 0.63)  Kranthi warned 0.53  lead   8.8 h  before 1st bolus 0.72  | Sundar warned 0.43
+  news3   line    4.50 (actual cost 0.98)  Kranthi warned 0.73  lead   9.0 h  before 1st bolus 0.80  | Sundar warned 0.59
+
+==== Budget 1.97 ====
+  road    line    0.53 (actual cost 1.97)  Kranthi warned 0.88  lead   8.8 h  before 1st bolus 0.90  | Sundar warned 0.56
+  road3   line    0.10 (actual cost 1.60)  Kranthi warned 0.95  lead   9.6 h  before 1st bolus 0.96  | Sundar warned 0.70
+  si      line    0.82 (actual cost 1.97)  Kranthi warned 0.83  lead   8.9 h  before 1st bolus 0.92  | Sundar warned 0.61
+  negmap  line  -63.67 (actual cost 1.90)  Kranthi warned 0.88  lead   8.1 h  before 1st bolus 0.82  | Sundar warned 0.48
+  news    line    6.00 (actual cost 1.22)  Kranthi warned 0.69  lead   8.6 h  before 1st bolus 0.78  | Sundar warned 0.57
+  news3   line    2.33 (actual cost 1.88)  Kranthi warned 0.94  lead   9.6 h  before 1st bolus 0.94  | Sundar warned 0.81
+

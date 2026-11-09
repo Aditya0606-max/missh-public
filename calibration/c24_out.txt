@@ -1,0 +1,12 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+No-FiO2 share of hours: before 0.28, after thinning 0.56 (target 0.56)
+
+  FALLBACK for eICU (x1.1)       cost 0.96 | Kranthi 0.71 (8.2 h) | Sundar 0.53 (14.1 h) | Sundars first warned with no FiO2 293 | mixed 0.31 (13.4 h) | TOTAL 1176
+      lines: lead3 1.50, S/F <= 133, effort RR >= 30.0
+  NEWS-lite 3-h >= 4.50 (sanity) cost 0.98 | Kranthi 0.73 (9.0 h) | Sundar 0.58 (15.6 h) | Sundars first warned with no FiO2 384 | mixed 0.30 (13.9 h) | TOTAL 1246
+      lines: lead3 inf, S/F <= -inf, effort RR >= inf
+
+FROZEN FOR eICU: pressure leading channel 3-h >= 1.500 | S/F <= 132.9 (hours with oxygen recorded) | RR 3-h >= 30.00 (hours without) | NEWS-lite 3-h comparator line on MIMIC-III 4.50

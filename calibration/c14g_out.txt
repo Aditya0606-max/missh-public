@@ -1,0 +1,25 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Road amber line 0.53. Kranthis 470
+
+Road amber class x NEWS>=5 class:
+news_cls  early  late  never  All
+road_cls                         
+early       312    10     34  356
+late         11    11     11   33
+never        25     5     51   81
+All         348    26     96  470 
+
+Last 3 h before pressor (medians of each patient's biggest one-hour change):
+                 jump  map_drop  si_rise
+slip                                    
+caught early     0.29       8.0     0.11
+sudden slippers  0.29      10.0     0.10 
+
+Fast track: road jump >= 0.90 in one hour and road >= 0.5 | Ajay firing hours/day 0.20
+  Ajay share of hours with a jump that big: 0.009
+  Sudden slippers caught by fast track: 19 of 114 (0.17), median lead 1.7 h
+  All Kranthis caught by fast track: 0.22
+
+Amber OR fast track: Kranthis warned 0.85 (401/470) vs amber alone 0.83; total Ajay cost about 1.20 per day

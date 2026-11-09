@@ -1,0 +1,8 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Amber line 0.53. Rule: SI up >= R vs 3-h low, plus witness, below amber; each priced at Ajay <= 0.2 hours/day
+
+  MAP drop          R 0.29 (Ajay 0.19 h/day) | slippers caught 19/114 (0.17), lead 2.4 h | all Kranthis 0.15 | amber OR rise 0.86 (404/470), total cost ~1.19/day
+  PP narrowing      R 0.30 (Ajay 0.19 h/day) | slippers caught 15/114 (0.13), lead 1.6 h | all Kranthis 0.13 | amber OR rise 0.85 (400/470), total cost ~1.19/day
+  either (primary)  R 0.30 (Ajay 0.20 h/day) | slippers caught 16/114 (0.14), lead 2.0 h | all Kranthis 0.14 | amber OR rise 0.85 (401/470), total cost ~1.20/day

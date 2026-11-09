@@ -1,0 +1,36 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== Kranthi (n 470, patient-days 381) ====
+  RED           fired 0.53  median lead   6.0 h  episodes/day 1.30
+  amber         fired 0.92  median lead   8.9 h  episodes/day 3.28
+  NEWS-lite>=5  fired 0.80  median lead   9.3 h  episodes/day 2.82
+  rule A        fired 0.64  median lead   6.5 h  episodes/day 1.70
+==== Sundar (n 1270, patient-days 1306) ====
+  RED           fired 0.18  median lead  16.4 h  episodes/day 0.37
+  amber         fired 0.63  median lead  16.8 h  episodes/day 2.00
+  NEWS-lite>=5  fired 0.67  median lead  16.1 h  episodes/day 2.49
+  rule A        fired 0.23  median lead  15.9 h  episodes/day 0.56
+==== mixed (n 555, patient-days 402) ====
+  RED           fired 0.15  median lead  16.3 h  episodes/day 0.49
+  amber         fired 0.45  median lead  16.4 h  episodes/day 1.97
+  NEWS-lite>=5  fired 0.37  median lead  15.0 h  episodes/day 1.70
+  rule A        fired 0.19  median lead  11.7 h  episodes/day 0.69
+==== Ajay (n 5031, patient-days 3566) ====
+  RED           fired 0.19  median lead   8.9 h  episodes/day 0.44
+  amber         fired 0.67  median lead  10.1 h  episodes/day 2.30
+  NEWS-lite>=5  fired 0.57  median lead  10.3 h  episodes/day 1.97
+  rule A        fired 0.22  median lead  10.2 h  episodes/day 0.61
+
+Kranthi red vs NEWS-lite>=5 (n 230): red earlier 0.09, same 0.07, median red lead over NEWS -3.0 h
+Kranthi red vs first bolus (n 220): red before bolus 0.46, median -0.1 h
+Kranthi NEWS-lite>=5 vs first bolus (n 320): NEWS before bolus 0.80
+
+Ajay false alarms by furthest 3-h road position:
+         ajays         days  red/day  amber/day
+band                                           
+<0.2      1582   950.791667    0.000      0.598
+0.2-0.4    657   458.166667    0.002      1.609
+0.4-0.6    683   506.750000    0.022      2.258
+0.6-0.8    682   498.000000    0.233      2.980
+0.8+      1420  1149.750000    1.259      3.711

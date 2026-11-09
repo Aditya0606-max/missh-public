@@ -1,0 +1,39 @@
+Anchors and weights:
+       recovery  shock  weight
+map      75.00  57.00    1.14
+si        0.71   0.96    1.23
+pp       58.00  43.00    0.78
+hr       84.00  88.00    0.22
+rr       19.00  20.00    0.18
+spo2     97.00  97.00    0.00 
+
+==== 8 h before tip, single hour (Kranthi n295, Ajay n3460, low-sitting Ajay n601) ====
+  vs all Ajays:         road 0.70  SI 0.67  MAP 0.66  PP 0.65  NEWS-lite 0.66  rule A 0.55
+  vs low-sitting Ajays: road 0.54  SI 0.58  MAP 0.34  PP 0.58  NEWS-lite 0.60  rule A 0.50
+  best single vs low-sitting: NEWS-lite 0.60 | road minus best: -0.07
+
+==== 8 h before tip, 3-h mean (Kranthi n301, Ajay n3543, low-sitting Ajay n607) ====
+  vs all Ajays:         road 0.70  SI 0.67  MAP 0.67  PP 0.66  NEWS-lite 0.68  rule A 0.60
+  vs low-sitting Ajays: road 0.52  SI 0.56  MAP 0.31  PP 0.58  NEWS-lite 0.60  rule A 0.51
+  best single vs low-sitting: NEWS-lite 0.60 | road minus best: -0.08
+
+==== 4 h before tip, single hour (Kranthi n373, Ajay n4838, low-sitting Ajay n589) ====
+  vs all Ajays:         road 0.76  SI 0.72  MAP 0.73  PP 0.67  NEWS-lite 0.72  rule A 0.61
+  vs low-sitting Ajays: road 0.67  SI 0.68  MAP 0.52  PP 0.65  NEWS-lite 0.68  rule A 0.58
+  best single vs low-sitting: NEWS-lite 0.68 | road minus best: -0.01
+
+==== 4 h before tip, 3-h mean (Kranthi n386, Ajay n4979, low-sitting Ajay n606) ====
+  vs all Ajays:         road 0.75  SI 0.71  MAP 0.71  PP 0.68  NEWS-lite 0.72  rule A 0.63
+  vs low-sitting Ajays: road 0.64  SI 0.66  MAP 0.46  PP 0.62  NEWS-lite 0.67  rule A 0.59
+  best single vs low-sitting: NEWS-lite 0.67 | road minus best: -0.03
+
+==== 2 h before tip, single hour (Kranthi n376, Ajay n4853, low-sitting Ajay n592) ====
+  vs all Ajays:         road 0.77  SI 0.74  MAP 0.75  PP 0.70  NEWS-lite 0.71  rule A 0.65
+  vs low-sitting Ajays: road 0.70  SI 0.70  MAP 0.59  PP 0.67  NEWS-lite 0.69  rule A 0.63
+  best single vs low-sitting: SI 0.70 | road minus best: -0.00
+
+==== 2 h before tip, 3-h mean (Kranthi n392, Ajay n5001, low-sitting Ajay n604) ====
+  vs all Ajays:         road 0.78  SI 0.74  MAP 0.75  PP 0.72  NEWS-lite 0.74  rule A 0.68
+  vs low-sitting Ajays: road 0.69  SI 0.69  MAP 0.55  PP 0.68  NEWS-lite 0.71  rule A 0.64
+  best single vs low-sitting: NEWS-lite 0.71 | road minus best: -0.01
+

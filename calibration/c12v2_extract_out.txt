@@ -1,0 +1,21 @@
+nohup: ignoring input
+{'Ajay': 300, 'Kranthi': 39, 'mixed': 24}
+20/363 done
+40/363 done
+60/363 done
+80/363 done
+100/363 done
+120/363 done
+140/363 done
+160/363 done
+180/363 done
+200/363 done
+220/363 done
+240/363 done
+260/363 done
+280/363 done
+300/363 done
+320/363 done
+340/363 done
+360/363 done
+blocks: 51840 | patients: 360 | log entries: 66

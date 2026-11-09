@@ -1,0 +1,15 @@
+==== Sitting low early (median MAP <= 65 in hours 11-8; of those with >= 3 MAP hours) ====
+         with_early_MAP  sitting_low  share
+who                                        
+Ajay               2685          607   0.23
+Kranthi             222          102   0.46
+Low-sitting Kranthis by shape: {'neither': 57, 'silent heart': 30, 'straining pump': 8, 'unreadable': 7}
+Low-sitting patients with a bolus in hours 6-3: {'Ajay': {'sum': 78, 'size': 607}, 'Kranthi': {'sum': 35, 'size': 102}}
+
+==== BOLUS in hours 6-3 ====
+  4 h before (Kranthi 34, Ajay 77): slide 0.62  PP narrowing 0.47  SI 0.63  MAP level 0.68
+  2 h before (Kranthi 34, Ajay 74): slide 0.70  PP narrowing 0.63  SI 0.65  MAP level 0.77
+
+==== NO bolus in hours 6-3 ====
+  4 h before (Kranthi 65, Ajay 512): slide 0.61  PP narrowing 0.54  SI 0.59  MAP level 0.66
+  2 h before (Kranthi 63, Ajay 518): slide 0.63  PP narrowing 0.61  SI 0.64  MAP level 0.69

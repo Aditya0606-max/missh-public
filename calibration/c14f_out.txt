@@ -1,0 +1,19 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Road line 0.53 | Ajay episodes/day: road 1.00, NEWS>=5 1.97, NEWS>=7 0.63
+
+==== Kranthis: 470 ====
+  road amber      fired 0.83  lead before tip: median  8.8 h (IQR 5.4-17.1), n 389
+  NEWS-lite >= 5  fired 0.80  lead before tip: median  9.3 h (IQR 5.4-17.2), n 374
+  NEWS-lite >= 7  fired 0.53  lead before tip: median  8.8 h (IQR 4.5-16.8), n 250
+
+  Road vs NEWS>=5 (both fired, n 344): road earlier 0.31, same hour 0.46, NEWS earlier 0.24
+  Hours from road amber to NEWS>=5: median  0.0 h (IQR 0.0-1.0), n 344
+  Hours from road amber to NEWS>=7: median  1.0 h (IQR 0.0-6.0), n 238
+  Hours from NEWS>=5 to pressor: median  9.3 h (IQR 5.4-17.2), n 374
+  Hours from NEWS>=7 to pressor: median  8.8 h (IQR 4.5-16.8), n 250
+
+  Seen by: road only 45, NEWS>=5 only 30, both 344, neither 51
+  Road-only Kranthis, lead before tip: median  5.3 h (IQR 2.4-7.2), n 45
+  Road position when NEWS first reaches 5: median 0.69 (line 0.53); share already past road line 0.66

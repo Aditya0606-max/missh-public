@@ -1,0 +1,22 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Pools: {'Ajay': 5031, 'Kranthi': 470, 'Sundar': 1270, 'mixed': 555, 'Naveen': 2323}
+Real mix: {'Ajay': np.float64(0.52), 'Kranthi': np.float64(0.05), 'Sundar': np.float64(0.13), 'mixed': np.float64(0.06), 'Naveen': np.float64(0.24)} 
+
+==== ICU pace, 20-bed ward ====
+  Amber alarms per 12-h shift: mean 11.5, busy shift (90th pct) 16; on a patient who later tipped 0.47 | arrival flags per shift 5.0
+  Ajay amber episodes per Ajay-day: 1.01
+  Kranthi  n  4646  caught 0.83  lead 8.9 h  sneaked through 0.17
+  Naveen   n 24076  caught 0.35  lead 0.7 h  sneaked through 0.65
+  Sundar   n 12866  caught 0.73  lead 12.7 h  sneaked through 0.27
+  mixed    n  5688  caught 0.48  lead 9.0 h  sneaked through 0.52
+
+==== WARD pace, 20-bed ward ====
+  Amber alarms per 12-h shift: mean 9.8, busy shift (90th pct) 13; on a patient who later tipped 0.38 | arrival flags per shift 2.0
+  Ajay amber episodes per Ajay-day: 1.00
+  Kranthi  n  4646  caught 0.80  lead 8.2 h  sneaked through 0.20
+  Naveen   n 24076  caught 0.12  lead 0.7 h  sneaked through 0.88
+  Sundar   n 12866  caught 0.70  lead 15.1 h  sneaked through 0.30
+  mixed    n  5688  caught 0.42  lead 12.7 h  sneaked through 0.58
+

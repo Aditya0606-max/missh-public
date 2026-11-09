@@ -1,0 +1,22 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Frozen alarm Ajay cost 0.87/day | full NEWS line 7.50, cost 0.86/day
+Effort-only variant Ajay cost 0.84/day
+
+Per group, among patients with a first amber before the tip:
+
+  Ajay     n  1946 | treated within 2 h 0.33 (bolus 0.28, O2 step 0.06) | came back by +3 h: treated 0.58, untreated 0.66 | tipped within 3 h 0.00
+           treated & not back (R) 0.14 | still amber at +3 h (any) 0.37
+  Kranthi  n   375 | treated within 2 h 0.42 (bolus 0.38, O2 step 0.07) | came back by +3 h: treated 0.30, untreated 0.34 | tipped within 3 h 0.17
+           treated & not back (R) 0.23, median 4.7 h before tip | still amber at +3 h (any) 0.50, median 6.4 h before tip
+  Sundar   n   621 | treated within 2 h 0.47 (bolus 0.25, O2 step 0.28) | came back by +3 h: treated 0.39, untreated 0.60 | tipped within 3 h 0.14
+           treated & not back (R) 0.18, median 12.8 h before tip | still amber at +3 h (any) 0.36, median 13.4 h before tip
+  mixed    n   186 | treated within 2 h 0.42 (bolus 0.31, O2 step 0.17) | came back by +3 h: treated 0.30, untreated 0.59 | tipped within 3 h 0.19
+           treated & not back (R) 0.15, median 10.3 h before tip | still amber at +3 h (any) 0.34, median 13.8 h before tip
+
+Cost on Ajays: R 0.075 per Ajay-day (267 Ajays) | still-amber-any 0.200 per Ajay-day
+  Kranthi  of ALL 470: R flags 0.19 | still-amber-any flags 0.40
+  Sundar   of ALL 1270: R flags 0.09 | still-amber-any flags 0.18
+  mixed    of ALL 555: R flags 0.05 | still-amber-any flags 0.12

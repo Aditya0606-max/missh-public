@@ -1,0 +1,17 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== Budget 0.44 episodes per Ajay-day ====
+  road, 3-hour (current)         cost 0.44 | Kranthi 0.62 (6.5 h) | slippers 16/114 | Sundar 0.21 (15.7 h)
+  road, 1-hour                   cost 0.44 | Kranthi 0.59 (5.9 h) | slippers 22/114 | Sundar 0.16 (14.4 h)
+  leading channel, 1-hour        cost 0.00 | Kranthi 0.00 (nan h) | slippers 0/114 | Sundar 0.00 (nan h)
+  leading channel, 3-hour        cost 0.43 | Kranthi 0.61 (7.5 h) | slippers 36/114 | Sundar 0.25 (15.9 h)
+  pulse pressure alone           cost 0.00 | Kranthi 0.00 (nan h) | slippers 0/114 | Sundar 0.00 (nan h)
+
+==== Budget 1.0 episodes per Ajay-day ====
+  road, 3-hour (current)         cost 1.00 | Kranthi 0.83 (8.8 h) | slippers 33/114 | Sundar 0.44 (15.6 h)
+  road, 1-hour                   cost 0.99 | Kranthi 0.77 (7.5 h) | slippers 36/114 | Sundar 0.32 (15.8 h)
+  leading channel, 1-hour        cost 0.00 | Kranthi 0.00 (nan h) | slippers 0/114 | Sundar 0.00 (nan h)
+  leading channel, 3-hour        cost 1.00 | Kranthi 0.85 (8.3 h) | slippers 60/114 | Sundar 0.43 (16.4 h)
+  pulse pressure alone           cost 0.00 | Kranthi 0.00 (nan h) | slippers 0/114 | Sundar 0.00 (nan h)
+

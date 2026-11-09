@@ -1,0 +1,21 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Stays by era: {'both': 20, 'carevue': 2965, 'metavision': 4341} 
+
+==== BOTH ====  Ajays 6, Ajay-days 5
+  FiO2 source share of hours: {'none': 0.61, 'estimated': 0.32, 'charted': 0.08}
+  frozen setup           Ajay cost 0.74 | Kranthi 0.33 (n3) | Sundar 0.78 (n9) | mixed 0.50 (n2) | TOTAL 9
+  NEWS-lite 3-h >= 4.50  Ajay cost 0.92 | Kranthi 0.33 (n3) | Sundar 0.56 (n9) | mixed 0.00 (n2) | TOTAL 6
+
+==== CAREVUE ====  Ajays 2049, Ajay-days 1508
+  FiO2 source share of hours: {'estimated': 0.58, 'none': 0.24, 'charted': 0.17}
+  frozen setup           Ajay cost 0.97 | Kranthi 0.73 (n221) | Sundar 0.73 (n572) | mixed 0.59 (n123) | TOTAL 649
+  NEWS-lite 3-h >= 4.50  Ajay cost 0.90 | Kranthi 0.71 (n221) | Sundar 0.64 (n572) | mixed 0.44 (n123) | TOTAL 578
+
+==== METAVISION ====  Ajays 2976, Ajay-days 2052
+  FiO2 source share of hours: {'estimated': 0.51, 'none': 0.3, 'charted': 0.18}
+  frozen setup           Ajay cost 1.01 | Kranthi 0.78 (n246) | Sundar 0.58 (n689) | mixed 0.29 (n430) | TOTAL 717
+  NEWS-lite 3-h >= 4.50  Ajay cost 1.04 | Kranthi 0.75 (n246) | Sundar 0.53 (n689) | mixed 0.26 (n430) | TOTAL 662
+

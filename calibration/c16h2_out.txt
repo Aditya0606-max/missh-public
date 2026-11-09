@@ -1,0 +1,6 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+  NEWS-lite 3-h      line 4.50 cost 0.98 | Kranthi 0.73 (9.0 h) | Sundar 0.58 (15.6 h) | mixed 0.30 (13.9 h) | TOTAL corrected 1246
+  NEWS with O2 3-h   line 6.33 cost 0.89 | Kranthi 0.68 (8.9 h) | Sundar 0.56 (16.1 h) | mixed 0.30 (13.3 h) | TOTAL corrected 1199
+  Frozen setup corrected total: 1375 (Kranthi 0.76, Sundar 0.65, mixed 0.36)

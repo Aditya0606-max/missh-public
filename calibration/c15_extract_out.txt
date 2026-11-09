@@ -1,0 +1,31 @@
+nohup: ignoring input
+{'Ajay': 100, 'Kranthi': 39, 'mixed': 24}
+5/163 done
+10/163 done
+15/163 done
+20/163 done
+30/163 done
+35/163 done
+40/163 done
+45/163 done
+50/163 done
+55/163 done
+60/163 done
+65/163 done
+70/163 done
+75/163 done
+80/163 done
+85/163 done
+95/163 done
+100/163 done
+105/163 done
+110/163 done
+115/163 done
+125/163 done
+130/163 done
+135/163 done
+140/163 done
+145/163 done
+150/163 done
+155/163 done
+samples: 5534 | patients: 146 | log: 14

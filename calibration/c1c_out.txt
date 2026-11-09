@@ -1,0 +1,8 @@
+Overall hour range in file: 0 to 498 
+
+         stays  needed_median  last_hour_median  ends_before_tip
+who                                                             
+Ajay      5031           13.0              11.0             0.48
+Kranthi    471           12.0              10.0             0.44
+Sundar    1275           17.0              15.0             0.54
+mixed      555            8.0               7.0             0.50

@@ -1,0 +1,18 @@
+==== Sitting low early (median MAP <= 65 in hours 11-8; of those with >= 3 MAP hours) ====
+         with_early_MAP  sitting_low  share
+who                                        
+Ajay               2685          607   0.23
+Kranthi             222          102   0.46
+Low-sitting Kranthis by shape: {'neither': 57, 'silent heart': 30, 'straining pump': 8, 'unreadable': 7}
+
+==== Within low-sitting group (Kranthi n=102, Ajay n=607): AUC, higher = Kranthi worse ====
+  4 h before: MAP level 0.69  slide 0.64  HR 0.53  SI 0.63  PP narrowing 0.54  RR 0.52  paying 0.58  combined 0.63
+  2 h before: MAP level 0.72  slide 0.66  HR 0.52  SI 0.64  PP narrowing 0.61  RR 0.46  paying 0.58  combined 0.66
+
+==== Provisional line = Ajay 90th percentile of combined, per hour ====
+  4 h before: Kranthi caught 0.26, Ajay above 0.10, precision 0.32
+  2 h before: Kranthi caught 0.27, Ajay above 0.09, precision 0.32
+
+==== Blind spot: low-sitting Kranthis never above the line in hours 7-0 ====
+  overall: 0.39 of 102
+  by shape: {'neither': 0.39, 'silent heart': 0.43, 'straining pump': 0.25, 'unreadable': 0.43}

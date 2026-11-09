@@ -1,0 +1,78 @@
+
+==== Rule A (SI>=1 and MAP<=65): share firing per hour ====
+grp           Ajay  Kranthi neither  Kranthi silent heart  Kranthi straining pump  Kranthi unreadable
+h before tip                                                                                         
+11            0.05             0.18                  0.14                    0.44                0.11
+10            0.05             0.23                  0.12                    0.36                0.15
+9             0.05             0.17                  0.14                    0.46                0.22
+8             0.05             0.16                  0.16                    0.14                0.21
+7             0.04             0.21                  0.11                    0.40                0.17
+6             0.05             0.22                  0.14                    0.47                0.05
+5             0.05             0.24                  0.13                    0.54                0.07
+4             0.05             0.26                  0.17                    0.56                0.15
+3             0.05             0.24                  0.23                    0.49                0.17
+2             0.05             0.26                  0.35                    0.67                0.71
+1             0.05             0.30                  0.42                    0.80                0.29
+0             0.04             0.32                  0.42                    0.78                0.22
+
+==== Rule D (near edge AND moving toward it): share firing per hour ====
+grp           Ajay  Kranthi neither  Kranthi silent heart  Kranthi straining pump  Kranthi unreadable
+h before tip                                                                                         
+11            0.13             0.23                  0.20                    0.21                0.00
+10            0.14             0.24                  0.19                    0.26                0.25
+9             0.13             0.28                  0.11                    0.28                0.12
+8             0.13             0.18                  0.26                    0.06                0.28
+7             0.12             0.17                  0.25                    0.20                0.12
+6             0.12             0.24                  0.20                    0.41                0.17
+5             0.13             0.24                  0.15                    0.38                0.08
+4             0.15             0.31                  0.22                    0.30                0.46
+3             0.14             0.27                  0.33                    0.25                0.00
+2             0.14             0.17                  0.48                    0.48                0.00
+1             0.13             0.24                  0.61                    0.47                0.33
+0             0.13             0.34                  0.54                    0.52                0.50
+
+==== Rule E (A AND heart fading (HR -5 over 3 h)): share firing per hour ====
+grp           Ajay  Kranthi neither  Kranthi silent heart  Kranthi straining pump  Kranthi unreadable
+h before tip                                                                                         
+11            0.01             0.04                  0.00                    0.07                0.00
+10            0.01             0.05                  0.05                    0.05                0.00
+9             0.01             0.06                  0.03                    0.11                0.00
+8             0.02             0.04                  0.05                    0.06                0.06
+7             0.01             0.02                  0.04                    0.05                0.07
+6             0.01             0.02                  0.04                    0.22                0.00
+5             0.02             0.09                  0.05                    0.22                0.00
+4             0.01             0.12                  0.03                    0.16                0.00
+3             0.02             0.08                  0.06                    0.19                0.00
+2             0.02             0.05                  0.17                    0.32                0.00
+1             0.01             0.07                  0.25                    0.31                0.00
+0             0.02             0.04                  0.17                    0.24                0.00
+
+==== Rule F (A OR E): share firing per hour ====
+grp           Ajay  Kranthi neither  Kranthi silent heart  Kranthi straining pump  Kranthi unreadable
+h before tip                                                                                         
+11            0.05             0.18                  0.14                    0.44                0.11
+10            0.05             0.23                  0.12                    0.36                0.15
+9             0.05             0.17                  0.14                    0.46                0.22
+8             0.05             0.16                  0.16                    0.14                0.21
+7             0.04             0.21                  0.11                    0.40                0.17
+6             0.05             0.22                  0.14                    0.47                0.05
+5             0.05             0.24                  0.13                    0.54                0.07
+4             0.05             0.26                  0.17                    0.56                0.15
+3             0.05             0.24                  0.23                    0.49                0.17
+2             0.05             0.26                  0.35                    0.67                0.71
+1             0.05             0.30                  0.42                    0.80                0.29
+0             0.04             0.32                  0.42                    0.78                0.22
+
+==== All Kranthis (n=408) vs Ajays (n=5031) ====
+  8 h before, rule A: Kranthi caught 0.16, Ajay false 0.054, precision 0.20
+  8 h before, rule D: Kranthi caught 0.21, Ajay false 0.129, precision 0.12
+  8 h before, rule E: Kranthi caught 0.05, Ajay false 0.016, precision 0.19
+  8 h before, rule F: Kranthi caught 0.16, Ajay false 0.054, precision 0.20
+  4 h before, rule A: Kranthi caught 0.26, Ajay false 0.046, precision 0.31
+  4 h before, rule D: Kranthi caught 0.29, Ajay false 0.146, precision 0.14
+  4 h before, rule E: Kranthi caught 0.09, Ajay false 0.013, precision 0.35
+  4 h before, rule F: Kranthi caught 0.26, Ajay false 0.046, precision 0.31
+  2 h before, rule A: Kranthi caught 0.34, Ajay false 0.046, precision 0.38
+  2 h before, rule D: Kranthi caught 0.30, Ajay false 0.140, precision 0.15
+  2 h before, rule E: Kranthi caught 0.12, Ajay false 0.017, precision 0.36
+  2 h before, rule F: Kranthi caught 0.34, Ajay false 0.046, precision 0.38

@@ -1,0 +1,14 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Ward pace: observed share of hours 0.25
+
+==== (a) Frozen lines at ward pace ====
+  frozen: lead3 >= 1.5 OR S/F <= 247.5   cost 0.76 | Kranthi 0.69 (7.9 h) | Sundar 0.61 (14.6 h) | mixed 0.35 (12.1 h) | TOTAL 1296
+
+==== (b) Re-matched to cost 1.0 at ward pace (split 0.4/0.6, topped up) ====
+  re-matched (x1.3) lines {'lead3_w': np.float64(1.42), 'negsf_w': np.float64(-287.88)} cost 0.99 | Kranthi 0.79 (8.0 h) | Sundar 0.69 (15.3 h) | mixed 0.41 (12.9 h) | TOTAL 1477
+
+==== (c) NEWS at ward pace ====
+  NEWS-lite 3-h, cost <= 1.0             cost 0.96 | Kranthi 0.72 (8.9 h) | Sundar 0.62 (15.4 h) | mixed 0.35 (14.3 h) | TOTAL 1323
+  NEWS-lite >= 5 (clinical)              cost 0.66 | Kranthi 0.58 (9.1 h) | Sundar 0.52 (14.7 h) | mixed 0.29 (14.5 h) | TOTAL 1088

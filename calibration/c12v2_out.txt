@@ -1,0 +1,37 @@
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3038: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3038: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/muppidiaditya/.local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3038: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Patients: {'Ajay': 253, 'Kranthi': 35, 'mixed': 22} | dropped: {'Ajay': 59, 'Kranthi': 4, 'mixed': 3}
+Pressure source share of blocks:
+ src       art  cuff  none
+who                      
+Ajay     0.08  0.32  0.60
+Kranthi  0.13  0.40  0.47
+mixed    0.09  0.47  0.44 
+
+==== 8 h before tip (preceding 3 h): AUC vs Ajay, higher = worse ====
+  Kranthi: A_share 0.65 (n15)  map_low 0.66 (n15)  si_level 0.77 (n15)  map_falling 0.57 (n15)  si_rising 0.46 (n15)  rr_creep 0.39 (n26)  not_answering 0.61 (n15)  slow_return 0.33 (n15)
+  mixed:   A_share 0.54  map_low 0.59  si_level 0.58  map_falling 0.52  si_rising 0.56  rr_creep 0.44  not_answering 0.60  slow_return 0.38
+==== 4 h before tip (preceding 3 h): AUC vs Ajay, higher = worse ====
+  Kranthi: A_share 0.71 (n22)  map_low 0.68 (n22)  si_level 0.81 (n22)  map_falling 0.46 (n22)  si_rising 0.52 (n22)  rr_creep 0.50 (n35)  not_answering 0.61 (n22)  slow_return 0.42 (n22)
+  mixed:   A_share 0.58  map_low 0.60  si_level 0.65  map_falling 0.44  si_rising 0.58  rr_creep 0.60  not_answering 0.55  slow_return 0.44
+==== 2 h before tip (preceding 3 h): AUC vs Ajay, higher = worse ====
+  Kranthi: A_share 0.77 (n22)  map_low 0.69 (n22)  si_level 0.78 (n22)  map_falling 0.63 (n22)  si_rising 0.64 (n22)  rr_creep 0.55 (n35)  not_answering 0.64 (n22)  slow_return 0.36 (n22)
+  mixed:   A_share 0.58  map_low 0.66  si_level 0.69  map_falling 0.64  si_rising 0.60  rr_creep 0.54  not_answering 0.47  slow_return 0.48
+
+==== Bolus fade (boluses >= 2 h before tip; per-patient mean) ====
+         gain  kept  fade   n
+who                          
+Ajay     -1.7   1.0   0.9  25
+Kranthi   1.5  -1.5   1.0  13
+mixed     0.9  -2.8   3.0   6
+  AUC fade Kranthi vs Ajay: 0.56

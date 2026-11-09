@@ -1,0 +1,38 @@
+
+=== dobutamine ===
+221653	Dobutamine	inputevents	Medications
+
+=== milrinone ===
+221986	Milrinone	inputevents	Medications
+
+=== IABP ===
+UNRESOLVED
+
+=== Impella ===
+229781	Bivalirudin (Angiomax) (Impella)	inputevents	Medications
+229597	Heparin Sodium (Impella)	inputevents	Medications
+228169	Impella Line	procedureevents	Access Lines - Invasive
+
+=== ECMO ===
+229529	ECMO Inflow Line	procedureevents	Access Lines - Invasive
+229530	ECMO Outflow Line	procedureevents	Access Lines - Invasive
+
+=== norepinephrine ===
+221906	Norepinephrine	inputevents	Medications
+
+=== epinephrine ===
+221289	Epinephrine	inputevents	Medications
+229617	Epinephrine.	inputevents	Medications
+221906	Norepinephrine	inputevents	Medications
+
+=== vasopressin ===
+222315	Vasopressin	inputevents	Medications
+
+=== dopamine ===
+221662	Dopamine	inputevents	Medications
+
+=== phenylephrine ===
+221749	Phenylephrine	inputevents	Medications
+229632	Phenylephrine (200/250)	inputevents	Medications
+229631	Phenylephrine (200/250)_OLD_1	inputevents	Medications
+229630	Phenylephrine (50/250)	inputevents	Medications

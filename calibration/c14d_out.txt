@@ -1,0 +1,29 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Kranthis 470, Sundars 1270, Ajay-days 3566
+
+==== Budget 0.2 episodes per Ajay-day ====
+  road3 alone                  cost 0.19  Kranthi warned 0.44 (208/470)  lead  5.8 h  before 1st bolus 0.62  Sundar 0.09  first: road 1.00
+  NEWS-lite alone              cost 0.12  Kranthi warned 0.23 (108/470)  lead  6.6 h  before 1st bolus 0.65  Sundar 0.17  first: NEWS 1.00
+  OR, split budget (primary)   cost 0.17  Kranthi warned 0.39 (183/470)  lead  5.9 h  before 1st bolus 0.64  Sundar 0.15  first: road 0.58, NEWS 0.35, both 0.07
+  OR, best pair (optimistic)   cost 0.17  Kranthi warned 0.41 (192/470)  lead  5.9 h  before 1st bolus 0.61  Sundar 0.07  first: road 0.94, NEWS 0.03, both 0.03
+
+==== Budget 0.44 episodes per Ajay-day ====
+  road3 alone                  cost 0.44  Kranthi warned 0.62 (290/470)  lead  6.5 h  before 1st bolus 0.72  Sundar 0.21  first: road 1.00
+  NEWS-lite alone              cost 0.29  Kranthi warned 0.40 (189/470)  lead  7.2 h  before 1st bolus 0.69  Sundar 0.32  first: NEWS 1.00
+  OR, split budget (primary)   cost 0.36  Kranthi warned 0.56 (263/470)  lead  6.6 h  before 1st bolus 0.71  Sundar 0.29  first: road 0.52, NEWS 0.35, both 0.13
+  OR, best pair (optimistic)   cost 0.43  Kranthi warned 0.61 (289/470)  lead  6.5 h  before 1st bolus 0.72  Sundar 0.20  first: road 0.97, both 0.03
+
+==== Budget 1.0 episodes per Ajay-day ====
+  road3 alone                  cost 1.00  Kranthi warned 0.83 (389/470)  lead  8.8 h  before 1st bolus 0.89  Sundar 0.44  first: road 1.00
+  NEWS-lite alone              cost 0.98  Kranthi warned 0.73 (342/470)  lead  9.0 h  before 1st bolus 0.80  Sundar 0.59  first: NEWS 1.00
+  OR, split budget (primary)   cost 0.75  Kranthi warned 0.73 (343/470)  lead  7.8 h  before 1st bolus 0.80  Sundar 0.46  first: road 0.48, NEWS 0.30, both 0.22
+  OR, best pair (optimistic)   cost 1.00  Kranthi warned 0.83 (389/470)  lead  8.8 h  before 1st bolus 0.89  Sundar 0.44  first: road 0.98, both 0.02
+
+==== Budget 1.97 episodes per Ajay-day ====
+  road3 alone                  cost 1.60  Kranthi warned 0.95 (445/470)  lead  9.6 h  before 1st bolus 0.96  Sundar 0.70  first: road 1.00
+  NEWS-lite alone              cost 1.88  Kranthi warned 0.94 (440/470)  lead  9.6 h  before 1st bolus 0.94  Sundar 0.81  first: NEWS 1.00
+  OR, split budget (primary)   cost 1.35  Kranthi warned 0.87 (408/470)  lead  9.3 h  before 1st bolus 0.91  Sundar 0.66  first: road 0.43, both 0.35, NEWS 0.22
+  OR, best pair (optimistic)   cost 1.94  Kranthi warned 0.97 (458/470)  lead  9.7 h  before 1st bolus 0.97  Sundar 0.85  first: both 0.65, road 0.21, NEWS 0.14
+

@@ -1,0 +1,16 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+S/F alarm hours that were vent-device hours: 203 of 29720 (0.01)
+  Ajay     tip moved earlier 0.00 (median 8.0 h)
+  Kranthi  tip moved earlier 0.01 (median 0.7 h)
+  Sundar   tip moved earlier 0.30 (median 0.5 h)
+  mixed    tip moved earlier 0.50 (median 0.4 h)
+
+Caught before tip (lead): original vs corrected (only hours before first tube/vent)
+  Kranthi  frozen setup 0.76 (8.3 h) -> 0.76 (8.3 h) | S/F alone 0.41 (8.6 h) -> 0.40 (8.7 h) | no readings before corrected tip 0.01
+  Sundar   frozen setup 0.70 (12.2 h) -> 0.65 (14.4 h) | S/F alone 0.64 (11.2 h) -> 0.58 (12.7 h) | no readings before corrected tip 0.10
+  mixed    frozen setup 0.46 (7.8 h) -> 0.36 (12.8 h) | S/F alone 0.38 (6.2 h) -> 0.28 (10.6 h) | no readings before corrected tip 0.42
+
+  Frozen setup total warned: original 1502 -> corrected 1375 (C16c reported 1502 incl. this definition)
+  Ajay hours with a vent device (should be ~0): 0.000

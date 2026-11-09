@@ -1,0 +1,10 @@
+Boluses used: {'Ajay': 2839, 'Kranthi': 532} | patients: {'Ajay': 1354, 'Kranthi': 198}
+         gain  fallback
+who                    
+Ajay      0.5      -0.2
+Kranthi  -0.1       0.4
+AUC fallback Kranthi vs Ajay: 0.54 | AUC smaller gain: 0.50
+  neither         n 107  fallback median  -0.7  AUC 0.50
+  silent heart    n  64  fallback median   1.0  AUC 0.57
+  straining pump  n  22  fallback median   1.8  AUC 0.64
+  unreadable      n   5  fallback median   4.0  AUC 0.54

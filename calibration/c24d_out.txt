@@ -1,0 +1,36 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+No-FiO2 share of hours: before 0.28, after thinning 0.56 (target 0.56)
+
+Sundars 1269 (thinned to eICU-like oxygen). Frozen lines: pressure 1.35, S/F <= 99, effort 1.06; NEWS-lite 4.50
+
+1) By share of pre-tip hours with oxygen recorded:
+   <25%    n  335 | architecture 0.22 (8.1 h) | NEWS 0.28 (6.2 h)
+   25-50%  n  304 | architecture 0.52 (12.0 h) | NEWS 0.62 (12.0 h)
+   50-75%  n  571 | architecture 0.68 (18.0 h) | NEWS 0.73 (20.4 h)
+   >75%    n   59 | architecture 0.53 (6.8 h) | NEWS 0.66 (8.4 h)
+
+2) First reading to speak, among 651 caught Sundars:
+   S/F       0.22  (median 11.3 h before tube)
+   effort    0.18  (median 12.1 h before tube)
+   pressure  0.59  (median 16.8 h before tube)
+
+3) Last 12 hours, medians (hours before tube): caught vs missed Sundars
+               lead3      SF    rr3  spo23  bpos  o2rec
+caught hb                                              
+missed missed   0.26  199.00  20.00  96.67  0.09    0.0
+       2.0      0.28  258.11  20.67  96.00  0.18    0.0
+       4.0      0.25  264.86  19.67  96.67  0.11    0.0
+       6.0      0.23  275.71  19.33  96.33  0.05    0.0
+       8.0      0.21  267.57  18.67  96.33  0.02    0.0
+       10.0     0.23  287.88  18.33  96.50  0.01    0.0
+       12.0     0.27  277.97  18.33  96.67  0.02    0.0
+caught missed   0.75  100.00  24.50  94.50  0.59    1.0
+       2.0      0.83  184.00  24.33  95.00  0.47    1.0
+       4.0      0.86  194.00  23.00  95.33  0.46    1.0
+       6.0      0.85  215.91  23.00  95.33  0.42    1.0
+       8.0      0.86  231.71  22.83  95.33  0.38    1.0
+       10.0     0.84  231.71  23.00  95.33  0.39    1.0
+       12.0     0.79  231.71  22.83  95.67  0.36    1.0

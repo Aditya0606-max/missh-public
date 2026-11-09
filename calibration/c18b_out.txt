@@ -1,0 +1,12 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== Red budget 0.2 per Ajay-day ====
+  RED = amber AND NEWS-3h >= 6.50    Ajay cost 0.19 | Kranthi 0.31 (7.1 h; amber->red 0.0 h) | Sundar 0.23 (14.4 h; amber->red 1.0 h) | mixed 0.14 (8.9 h; amber->red 1.0 h) | Naveen 0.06 (0.8 h; amber->red 0.0 h) | TOTAL 650
+  NEWS-3h alone >= 7.33              Ajay cost 0.12 | Kranthi 0.23 (6.6 h; amber->red 1.0 h) | Sundar 0.17 (13.0 h; amber->red 2.0 h) | mixed 0.10 (7.9 h; amber->red 1.0 h) | Naveen 0.05 (0.9 h; amber->red 0.0 h) | TOTAL 504
+
+==== Red budget 0.28 per Ajay-day ====
+  RED = amber AND NEWS-3h >= 6.33    Ajay cost 0.22 | Kranthi 0.33 (7.2 h; amber->red 0.0 h) | Sundar 0.27 (14.4 h; amber->red 1.0 h) | mixed 0.15 (9.5 h; amber->red 1.0 h) | Naveen 0.06 (0.8 h; amber->red 0.0 h) | TOTAL 705
+  NEWS-3h alone >= 6.50              Ajay cost 0.25 | Kranthi 0.36 (7.4 h; amber->red 0.0 h) | Sundar 0.29 (14.3 h; amber->red 0.0 h) | mixed 0.17 (8.6 h; amber->red 1.0 h) | Naveen 0.09 (0.8 h; amber->red 0.0 h) | TOTAL 839
+
+  NEWS-lite >= 7 (clinical, single hour) Ajay cost 0.63 | Kranthi 0.53 (8.8 h; amber->red 1.0 h) | Sundar 0.43 (15.1 h; amber->red 1.0 h) | mixed 0.22 (12.1 h; amber->red 1.0 h) | Naveen 0.10 (0.7 h; amber->red 0.0 h) | TOTAL 1144

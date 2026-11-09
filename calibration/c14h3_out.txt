@@ -1,0 +1,17 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Flagged at arrival (road >= 0.6 in hours 0-2): who came back at the next reading
+                      flagged  has_next  came_back
+grp                                               
+Ajay                     1507      0.96       0.56
+Kranthi                   248      0.98       0.40
+Naveen both               134      0.17       0.43
+Naveen pressor first      363      0.40       0.51
+Naveen vent first         225      0.20       0.48 
+
+Two-reading red (flagged, not back at next reading):
+  Naveens caught before tip 0.05 (107/2266), median lead 0.5 h
+  Flagged Naveens who tipped before a next reading: 509 | by route caught: pressor first 0.09, both 0.03, vent first 0.02
+  Arriving Ajays flagged at arrival 0.30; given two-reading red 0.13
+  Ajays who came back after an arrival flag: 805 (all survived without escalation, by definition of Ajay)

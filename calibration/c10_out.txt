@@ -1,0 +1,24 @@
+
+==== All stays with tip >= 6 h ====
+shape    neither  silent heart  straining pump  unreadable     n
+who                                                             
+Ajay        0.68          0.23            0.01        0.08  5031
+Kranthi     0.48          0.30            0.10        0.13   408
+Sundar      0.52          0.12            0.01        0.35  1133
+mixed       0.17          0.08            0.02        0.73   402
+Both shapes (counted as pump): {'Ajay': 25, 'Kranthi': 16, 'Sundar': 6, 'mixed': 1}
+Any cuff speed-up in last 6 h: {'Ajay': 0.33, 'Kranthi': 0.59, 'Sundar': 0.43, 'mixed': 0.25}
+Straining-pump Kranthis: 41; with both a strain hour and a cuff speed-up: 26
+  strain before speed-up 50%, same hour 42%, after 8%; median hours before tip: strain 5, speed-up 4
+
+==== Waveform subset (m3_usable: tip >= 6, cov_any >= 0.8) ====
+shape    neither  silent heart  straining pump  unreadable    n
+who                                                            
+Ajay        0.70          0.23            0.01        0.06  833
+Kranthi     0.51          0.36            0.13        0.00   39
+Sundar      0.75          0.13            0.02        0.10  118
+mixed       0.54          0.25            0.04        0.17   24
+Both shapes (counted as pump): {'Kranthi': 3, 'Ajay': 3}
+Any cuff speed-up in last 6 h: {'Ajay': 0.3, 'Kranthi': 0.72, 'Sundar': 0.62, 'mixed': 0.46}
+Straining-pump Kranthis: 5; with both a strain hour and a cuff speed-up: 5
+  strain before speed-up 80%, same hour 0%, after 20%; median hours before tip: strain 5, speed-up 4

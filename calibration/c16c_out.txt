@@ -1,0 +1,19 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== Each reading alone, and NEWS, at cost <= 1.0 ====
+  pressure: leading channel 3-h      cost 1.00 | Kranthi 0.85 (8.3 h, through 0.15) | Sundar 0.43 (16.4 h, through 0.57) | mixed 0.34 (12.5 h, through 0.66) | TOTAL warned 1141
+  breathing: S/F                     cost 0.97 | Kranthi 0.58 (9.0 h, through 0.42) | Sundar 0.72 (13.6 h, through 0.28) | mixed 0.45 (8.1 h, through 0.55) | TOTAL warned 1434
+  NEWS-lite, 3-h                     cost 0.98 | Kranthi 0.73 (9.0 h, through 0.27) | Sundar 0.59 (15.4 h, through 0.41) | mixed 0.31 (13.4 h, through 0.69) | TOTAL warned 1263
+  NEWS with O2, 3-h                  cost 0.89 | Kranthi 0.69 (8.8 h, through 0.31) | Sundar 0.57 (16.0 h, through 0.43) | mixed 0.31 (12.0 h, through 0.69) | TOTAL warned 1216
+
+==== Shared setup: pressure share of budget, topped up to cost 1.0 ====
+  pressure 0.2 / breathing 0.8 (x1.2) cost 0.94 | Kranthi 0.57 (9.1 h, through 0.43) | Sundar 0.71 (13.5 h, through 0.29) | mixed 0.44 (7.9 h, through 0.56) | TOTAL warned 1418
+  pressure 0.3 / breathing 0.7 (x1.4) cost 0.97 | Kranthi 0.58 (9.0 h, through 0.42) | Sundar 0.72 (13.6 h, through 0.28) | mixed 0.45 (8.1 h, through 0.55) | TOTAL warned 1434
+  pressure 0.4 / breathing 0.6 (x1.1) cost 0.99 | Kranthi 0.76 (8.3 h, through 0.24) | Sundar 0.70 (12.2 h, through 0.30) | mixed 0.46 (7.8 h, through 0.54) | TOTAL warned 1502
+  pressure 0.5 / breathing 0.5 (x1.1) cost 0.98 | Kranthi 0.77 (8.4 h, through 0.23) | Sundar 0.68 (12.0 h, through 0.32) | mixed 0.46 (7.8 h, through 0.54) | TOTAL warned 1481
+  pressure 0.6 / breathing 0.4 (x1.1) cost 0.99 | Kranthi 0.79 (8.4 h, through 0.21) | Sundar 0.69 (11.7 h, through 0.31) | mixed 0.47 (8.2 h, through 0.53) | TOTAL warned 1501
+  pressure 0.7 / breathing 0.3 (x1.1) cost 0.98 | Kranthi 0.83 (8.3 h, through 0.17) | Sundar 0.63 (13.4 h, through 0.37) | mixed 0.45 (8.2 h, through 0.55) | TOTAL warned 1436
+  pressure 0.8 / breathing 0.2 (x1.0) cost 0.94 | Kranthi 0.83 (8.1 h, through 0.17) | Sundar 0.57 (14.0 h, through 0.43) | mixed 0.43 (9.0 h, through 0.57) | TOTAL warned 1358
+
+BEST split (to freeze): pressure 0.4 / breathing 0.6; lines {'lead3': np.float64(1.5), 'negsf': np.float64(-247.5)}; total warned 1502 vs NEWS-lite 1263, NEWS with O2 1216

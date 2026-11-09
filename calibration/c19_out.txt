@@ -1,0 +1,8 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+saved path_kranthi_caught_early.png | tip 93.3 h | first amber 1
+saved path_kranthi_sudden_slipper.png | tip 7.0 h | first amber 5
+saved path_sundar.png | tip 5.4 h | first amber 5
+saved path_near-miss_ajay.png | tip 41.4 h | first amber 0
+saved path_naveen.png | tip 1.0 h | first amber none

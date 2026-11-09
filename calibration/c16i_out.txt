@@ -1,0 +1,10 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+  (1) frozen lead3 + S/F         cost 0.99 | Kranthi 0.76 (8.3 h) | Sundar 0.65 (14.4 h) | Sundars first warned with no FiO2 54 | mixed 0.36 (12.8 h) | TOTAL 1375
+      lines: lead3 1.50, S/F <= 248, effort RR >= inf
+  fallback, S/F 0.8 / effort 0.2 (x1.1) cost 0.98 | Kranthi 0.74 (8.4 h) | Sundar 0.64 (13.7 h) | Sundars first warned with no FiO2 131 | mixed 0.37 (11.7 h) | TOTAL 1369
+      lines: lead3 1.50, S/F <= 230, effort RR >= 26.7
+  fallback, S/F 0.6 / effort 0.4 (x1.1) cost 0.96 | Kranthi 0.75 (8.4 h) | Sundar 0.64 (13.0 h) | Sundars first warned with no FiO2 182 | mixed 0.36 (13.0 h) | TOTAL 1366
+      lines: lead3 1.50, S/F <= 209, effort RR >= 23.3

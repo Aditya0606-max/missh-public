@@ -1,0 +1,53 @@
+Anchors and weights:
+       recovery  shock  weight
+map      75.00  57.00    1.14
+si        0.71   0.96    1.23
+pp       58.00  43.00    0.78
+hr       84.00  88.00    0.22
+rr       19.00  20.00    0.18
+spo2     97.00  97.00    0.00 
+
+Low-sitting patients: {'Ajay': 607, 'Kranthi': 102} 
+
+==== 8 h before tip (low-sitting Kranthi n102 vs Ajay n607): AUC, higher = Kranthi worse ====
+  position 0.68  narrow RRxPP 0.39  narrow pressure 0.42  no return 0.56  all three 0.59
+     neither        : position 0.67  narrow RRxPP 0.43  narrow pressure 0.46  no return 0.55  all three 0.61
+     silent heart   : position 0.62  narrow RRxPP 0.31  narrow pressure 0.36  no return 0.53  all three 0.51
+     straining pump : position 0.93  narrow RRxPP 0.55  narrow pressure 0.36  no return 0.59  all three 0.72
+     unreadable     : position 0.71  narrow RRxPP 0.32  narrow pressure 0.36  no return 0.63  all three 0.61
+  medians: {'Ajay': {'road': 0.51, 'bw_press': 0.52, 'bw_rr_pp': 0.34, 'returns': 1.0}, 'Kranthi': {'road': 0.74, 'bw_press': 0.61, 'bw_rr_pp': 0.56, 'returns': 1.0}}
+  2x2 (share of each group):
+near      near       not near      
+narrow  narrow  room   narrow  room
+who                                
+Ajay      0.24  0.27     0.26  0.23
+Kranthi   0.27  0.49     0.13  0.11 
+
+==== 4 h before tip (low-sitting Kranthi n101 vs Ajay n606): AUC, higher = Kranthi worse ====
+  position 0.71  narrow RRxPP 0.48  narrow pressure 0.45  no return 0.51  all three 0.60
+     neither        : position 0.71  narrow RRxPP 0.44  narrow pressure 0.42  no return 0.51  all three 0.57
+     silent heart   : position 0.63  narrow RRxPP 0.56  narrow pressure 0.51  no return 0.52  all three 0.59
+     straining pump : position 0.97  narrow RRxPP 0.53  narrow pressure 0.41  no return 0.63  all three 0.79
+     unreadable     : position 0.74  narrow RRxPP 0.44  narrow pressure 0.53  no return 0.41  all three 0.65
+  medians: {'Ajay': {'road': 0.37, 'bw_press': 0.49, 'bw_rr_pp': 0.39, 'returns': 1.0}, 'Kranthi': {'road': 0.68, 'bw_press': 0.54, 'bw_rr_pp': 0.39, 'returns': 1.0}}
+  2x2 (share of each group):
+near      near       not near      
+narrow  narrow  room   narrow  room
+who                                
+Ajay      0.19  0.20     0.29  0.32
+Kranthi   0.30  0.38     0.16  0.17 
+
+==== 2 h before tip (low-sitting Kranthi n101 vs Ajay n604): AUC, higher = Kranthi worse ====
+  position 0.76  narrow RRxPP 0.51  narrow pressure 0.47  no return 0.53  all three 0.66
+     neither        : position 0.75  narrow RRxPP 0.48  narrow pressure 0.48  no return 0.46  all three 0.63
+     silent heart   : position 0.73  narrow RRxPP 0.52  narrow pressure 0.41  no return 0.60  all three 0.65
+     straining pump : position 0.98  narrow RRxPP 0.60  narrow pressure 0.55  no return 0.66  all three 0.89
+     unreadable     : position 0.79  narrow RRxPP 0.71  narrow pressure 0.77  no return 0.78  all three 0.96
+  medians: {'Ajay': {'road': 0.35, 'bw_press': 0.5, 'bw_rr_pp': 0.39, 'returns': 1.0}, 'Kranthi': {'road': 0.82, 'bw_press': 0.5, 'bw_rr_pp': 0.39, 'returns': 0.0}}
+  2x2 (share of each group):
+near      near       not near      
+narrow  narrow  room   narrow  room
+who                                
+Ajay      0.15  0.22     0.32  0.31
+Kranthi   0.36  0.40     0.12  0.13 
+

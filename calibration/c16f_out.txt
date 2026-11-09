@@ -1,0 +1,19 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== Pressure reading alone, budget 0.4 ====
+  leading channel 3-h                  cost 0.00 | Kranthi all 0.00 (n470) | silent heart 0.00 (n121) | low-SI Kranthi 0.00 (n123) | slippers 0.00 (n114) | Sundar 0.00 | mixed 0.00 | TOTAL 0
+  MAP alone 3-h                        cost 0.39 | Kranthi all 0.55 (n470) | silent heart 0.60 (n121) | low-SI Kranthi 0.50 (n123) | slippers 0.27 (n114) | Sundar 0.16 | mixed 0.16 | TOTAL 552
+
+==== Pressure reading alone, budget 1.0 ====
+  leading channel 3-h                  cost 1.00 | Kranthi all 0.85 (n470) | silent heart 0.90 (n121) | low-SI Kranthi 0.69 (n123) | slippers 0.53 (n114) | Sundar 0.43 | mixed 0.34 | TOTAL 1141
+    own lines in raw values: {'MAP <=': np.float64(57.7), 'SI >=': np.float64(1.04), 'PP <=': np.float64(38.0)}
+  own 3-h line per channel             cost 0.98 | Kranthi all 0.83 (n470) | silent heart 0.85 (n121) | low-SI Kranthi 0.68 (n123) | slippers 0.50 (n114) | Sundar 0.42 | mixed 0.34 | TOTAL 1116
+  MAP alone 3-h                        cost 0.97 | Kranthi all 0.79 (n470) | silent heart 0.83 (n121) | low-SI Kranthi 0.69 (n123) | slippers 0.44 (n114) | Sundar 0.36 | mixed 0.31 | TOTAL 998
+
+==== Shared setup with S/F (split 0.4 / 0.6, topped up to 1.0); C16c total was 1502 ====
+Traceback (most recent call last):
+  File "/home/muppidiaditya/mimic3w/c16f_own.py", line 50, in <module>
+    print("    own pressure lines in raw values:", raw(ok_ln), "| S/F <=", round(-ok_ln["negsf"], 1))
+                                                       ^^^^^
+NameError: name 'ok_ln' is not defined

@@ -1,0 +1,21 @@
+O2 event kinds:
+ kind
+device    32247
+flow      25091
+fio2       4561
+Name: count, dtype: int64 
+
+Recoveries and share preceded by treatment:
+                    recoveries  after_treatment
+side      who                                 
+breathing Ajay           6644             0.07
+          Kranthi         808             0.00
+          Sundar         2722             0.12
+          mixed           580             0.00
+shock     Ajay           6796             0.11
+          Kranthi         720             0.17
+          Sundar         2280             0.09
+          mixed           626             0.10 
+
+ok shock: Ajay returns after treatment = 0.11
+ok breathing: Ajay returns after treatment = 0.07

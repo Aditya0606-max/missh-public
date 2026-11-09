@@ -1,0 +1,35 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+Ajays 5031, Ajay-days 3566, amber episodes per Ajay-day overall 0.99
+
+==== By highest pressure position (leading channel, 3-h) ====
+          ajays         days  per_day  share_of_alarms
+max_lead                                              
+<0.5        860   474.291667     0.72             0.10
+0.5-0.8     658   418.416667     0.67             0.08
+0.8-1.1     872   592.166667     0.65             0.11
+1.1-1.4    1040   788.500000     0.64             0.14
+>=1.4      1594  1290.083333     1.57             0.57 
+
+==== By lowest S/F ====
+         ajays        days  per_day  share_of_alarms
+min_sf                                              
+<200       926  751.166667     2.01             0.43
+200-250    670  539.291667     1.83             0.28
+250-300   1074  755.166667     0.44             0.09
+300-400   1304  864.250000     0.44             0.11
+>400         9    4.291667     0.00             0.00 
+
+==== By pressure position in first 3 hours (fast-start Ajays) ====
+         ajays         days  per_day  share_of_alarms
+first3                                               
+<0.5      1542  1078.833333     0.70             0.21
+0.5-0.8    569   385.416667     0.74             0.08
+0.8-1.1    667   466.666667     0.73             0.10
+1.1-1.4    596   436.541667     0.85             0.11
+>=1.4     1364   983.875000     1.62             0.45 
+
+==== Quiet Ajays (pressure < 0.5 and S/F > 300 all stay) ====
+  Ajays 216, amber episodes per day 0.000, share of all Ajay alarms 0.000

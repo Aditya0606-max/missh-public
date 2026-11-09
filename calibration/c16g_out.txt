@@ -1,0 +1,18 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+  (1) frozen lead3 + S/F         cost 0.99 | Kranthi 0.76 (8.3 h) | Sundar 0.65 (14.4 h) | Sundars first warned with no FiO2 54 | mixed 0.36 (12.8 h) | TOTAL 1375
+      lines: lead3 1.50, S/F <= 248, effort RR >= inf
+
+==== PRIMARY: RR-led effort (HR not required) ====
+  (2) lead3 + S/F + effort (x1.2) cost 0.97 | Kranthi 0.75 (8.3 h) | Sundar 0.62 (14.2 h) | Sundars first warned with no FiO2 104 | mixed 0.35 (12.6 h) | TOTAL 1331
+      lines: lead3 1.48, S/F <= 186, effort RR >= 28.5
+  (3) lead3 + effort only (x1.1) cost 0.98 | Kranthi 0.72 (8.1 h) | Sundar 0.54 (15.3 h) | Sundars first warned with no FiO2 132 | mixed 0.31 (13.9 h) | TOTAL 1202
+      lines: lead3 1.50, S/F <= -inf, effort RR >= 25.7
+
+==== variant: RR and HR both high ====
+  (2) lead3 + S/F + effort (x1.2) cost 0.94 | Kranthi 0.74 (8.4 h) | Sundar 0.61 (14.4 h) | Sundars first warned with no FiO2 103 | mixed 0.34 (11.0 h) | TOTAL 1308
+      lines: lead3 1.48, S/F <= 186, effort RR >= 24.3 & HR >= 104
+  (3) lead3 + effort only (x1.1) cost 0.93 | Kranthi 0.69 (8.3 h) | Sundar 0.52 (15.7 h) | Sundars first warned with no FiO2 140 | mixed 0.28 (15.7 h) | TOTAL 1143
+      lines: lead3 1.50, S/F <= -inf, effort RR >= 22.0 & HR >= 96

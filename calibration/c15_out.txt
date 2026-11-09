@@ -1,0 +1,34 @@
+Patients with ECG samples: {'Ajay': 90, 'Kranthi': 32, 'mixed': 24}
+Log reasons: {('Ajay', 'no lead II segment in window'): 9, ('Kranthi', 'no lead II segment in window'): 5} 
+
+==== Q0 irregular rhythm: share of each patient's strips ====
+         count  25%   50%   75%
+who                            
+Ajay      90.0  0.0  0.02  0.26
+Kranthi   32.0  0.0  0.08  0.64
+mixed     24.0  0.0  0.04  0.17
+  AUC Kranthi vs Ajay (more irregular = worse): 0.58
+
+==== Q1 rigidity (regular strips): AUC vs Ajay, lower flexibility = worse ====
+  8 h: Kranthi n18 vs Ajay n57  corrected 0.44  raw 0.45  | median corrected K 2.7 A 2.0  | mixed 0.46
+        by shape: neither n9 0.50  silent heart n7 0.40  straining pump n2 0.32
+  4 h: Kranthi n24 vs Ajay n77  corrected 0.43  raw 0.47  | median corrected K 3.2 A 2.3  | mixed 0.50
+        by shape: neither n13 0.58  silent heart n8 0.25  straining pump n3 0.29
+  2 h: Kranthi n24 vs Ajay n79  corrected 0.45  raw 0.48  | median corrected K 2.7 A 2.1  | mixed 0.50
+        by shape: neither n13 0.55  silent heart n8 0.35  straining pump n3 0.32
+
+==== Q1 rigidity (cleanest strips only): AUC vs Ajay, lower flexibility = worse ====
+  8 h: Kranthi n14 vs Ajay n50  corrected 0.48  raw 0.50  | median corrected K 1.9 A 1.8  | mixed 0.43
+        by shape: neither n8 0.49  silent heart n5 0.46  straining pump n1 0.50
+  4 h: Kranthi n22 vs Ajay n69  corrected 0.46  raw 0.49  | median corrected K 1.8 A 2.2  | mixed 0.47
+        by shape: neither n12 0.60  silent heart n7 0.30  straining pump n3 0.22
+  2 h: Kranthi n22 vs Ajay n72  corrected 0.45  raw 0.48  | median corrected K 2.3 A 1.9  | mixed 0.49
+        by shape: neither n12 0.55  silent heart n8 0.31  straining pump n2 0.39
+
+==== Q2 rest or quit: last 4 h, HR fell >= 5 bpm; change in corrected flexibility ====
+  pairs: {'Ajay': 27, 'Kranthi': 8, 'mixed': 8} | patients: {'Ajay': 23, 'mixed': 8, 'Kranthi': 6}
+  Ajay     median change +0.02  share with flexibility rising 0.57
+  Kranthi  median change -0.35  share with flexibility rising 0.33
+  mixed    median change +0.17  share with flexibility rising 0.62
+  AUC Kranthi vs Ajay (flexibility NOT rising = worse): 0.64
+  by shape: neither n4 0.65  silent heart n2 0.63

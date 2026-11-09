@@ -1,0 +1,22 @@
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+==== C14i residual risk, all routes (amber line 0.53) ====
+  Quiet on road: 29.8 escalations within 3 h per 1,000 quiet hours (quiet hours 93634)
+  Of those escalations, by route: Sundar 0.76, Kranthi 0.14, mixed 0.10
+  By time since last amber:
+                   hours  per_1000
+band                              
+0-2 h since amber   6934      38.7
+12+ h               7524      33.0
+3-5 h               6348      38.0
+6-11 h              6196      39.1
+never amber        66632      26.8
+  Quiet on NEWS-lite (< 5): 20.2 per 1,000 | quiet on both: 17.6 per 1,000
+  Quiet-on-both escalations by route: Sundar 0.70, Kranthi 0.19, mixed 0.11 
+
+==== C14j steady climb (3 h rising, climb >= 0.50, below amber; Ajay 0.20 h/day) ====
+  Kranthi  climb caught 0.09 (lead 9.8 h) | amber 0.83 | amber OR climb 0.86
+  Sundar   climb caught 0.15 (lead 17.5 h) | amber 0.44 | amber OR climb 0.51
+  mixed    climb caught 0.09 (lead 21.0 h) | amber 0.37 | amber OR climb 0.41
+  Kranthi: climb before amber 0.44 (median 2.5 h earlier); sudden slippers caught 16/114

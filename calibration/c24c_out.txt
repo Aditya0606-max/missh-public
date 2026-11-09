@@ -1,0 +1,11 @@
+nohup: ignoring input
+Anchors recovery: {'mp': 75.0, 'si': 0.71, 'pp': 58.0} | shock: {'mp': 58.0, 'si': 0.96, 'pp': 43.0}
+Amber lines (Ajay 90th pct of fraction): {'f_mp': 1.0, 'f_si': 1.19, 'f_pp': 1.4} 
+
+No-FiO2 share of hours: before 0.28, after thinning 0.56 (target 0.56)
+
+FROZEN (B, gate off, pressure 0.7, x1.1, cost 0.95):
+  pressure leading channel 3-h >= 1.350
+  S/F <= 98.9  (hours with oxygen recorded)
+  breathing effort position >= 1.060  (hours without; mean of RR and SpO2 positions)
+  effort anchors from MIMIC-III Ajays: RR median 19.0, RR 95th 29.0; SpO2 median 97.0, SpO2 5th 92.3
