@@ -138,3 +138,20 @@ for lab, s in VER.items():
         okS, _ = caught(L[L.who == "Sundar"], col); okS = okS.reindex(bandS.index)
         print(f"  {nm:10s} " + " | ".join(out) + f" | TOTAL {tot} | Sundar by O2 band: "
               + ", ".join(f"{b} {okS[bandS == b].mean():.2f}" for b in bandS.cat.categories))
+print("\n==== PAIRED TIMING (same patients, warned by both; + = architecture earlier) ====")
+L["_vB"] = list(VER.values())[1]
+def firsth(D, col):
+    t = D.groupby("icustay_id").tip_c.first(); h = D[D[col].values & (D.hour.values < D.tip_c.values)].groupby("icustay_id").hour.min()
+    return h.reindex(t.index)
+def paired(D, col, lab):
+    a, n = firsth(D, col), firsth(D, "newsA"); both = a.notna() & n.notna(); d = (n - a)[both]
+    if both.sum() == 0: return f"{lab}: none warned by both"
+    return (f"{lab}: n {int(both.sum())} | architecture first {(d > 0).mean():.2f}, same hour {(d == 0).mean():.2f}, "
+            f"NEWS first {(d < 0).mean():.2f} | median {d.median():+.1f} h")
+for w, nm in [("Kranthi", "vasopressor-first"), ("Sundar", "ventilation-first"), ("mixed", "combined")]:
+    D = L[L.who == w]
+    for col, lab in [("arch", "frozen alarm"), ("_vB", "S/F-forward B")]: print(f"  {nm:18s} {paired(D, col, lab)}")
+print("\n==== PRECISION (share of amber episodes starting on a patient who later escalated, before escalation) ====")
+for col, lab in [("arch", "frozen alarm"), ("_vB", "S/F-forward B"), ("newsA", "full NEWS")]:
+    st = starts(L, L[col].values); real = st & (L.who.values != "Ajay") & (L.hour.values < L.tip_c.values)
+    print(f"  {lab:16s} {real.sum() / max(st.sum(), 1):.2f} of {int(st.sum())} episodes")
