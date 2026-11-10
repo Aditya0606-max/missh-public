@@ -1,0 +1,30 @@
+nohup: ignoring input
+<string>:4: DtypeWarning: Columns (11: device) have mixed types. Specify dtype option on import or set low_memory=False.
+Reproduced PRIMARY: architecture 0.845 vs NEWS 0.724 (registered: 0.845 vs 0.724)
+
+==== Region ====
+  Midwest              n  352 | architecture 0.88 | NEWS 0.81 | diff +0.07 | discordant 49 vs 26 | p 0.00529
+  Northeast            n   56 | architecture 0.91 | NEWS 0.84 | diff +0.07 | discordant 4 vs 0 | p 0.0625
+  South                n  175 | architecture 0.87 | NEWS 0.75 | diff +0.13 | discordant 32 vs 10 | p 0.00047
+  West                 n  332 | architecture 0.78 | NEWS 0.59 | diff +0.19 | discordant 81 vs 17 | p 1.81e-11
+  unknown              n   78 | architecture 0.86 | NEWS 0.77 | diff +0.09 | discordant 13 vs 6 | p 0.0835
+
+==== Bed size ====
+  100 - 249            n  208 | architecture 0.88 | NEWS 0.76 | diff +0.11 | discordant 33 vs 10 | p 0.000303
+  250 - 499            n  366 | architecture 0.80 | NEWS 0.68 | diff +0.12 | discordant 67 vs 22 | p 9.5e-07
+  <100                 n   66 | architecture 0.88 | NEWS 0.68 | diff +0.20 | discordant 16 vs 3 | p 0.00221
+  >= 500               n  244 | architecture 0.86 | NEWS 0.74 | diff +0.11 | discordant 43 vs 15 | p 0.000153
+  unknown              n  109 | architecture 0.88 | NEWS 0.78 | diff +0.10 | discordant 20 vs 9 | p 0.0307
+
+==== Teaching ====
+  False                n  849 | architecture 0.84 | NEWS 0.71 | diff +0.13 | discordant 156 vs 47 | p 3.72e-15
+  True                 n  144 | architecture 0.87 | NEWS 0.79 | diff +0.08 | discordant 23 vs 12 | p 0.0448
+
+==== Oxygen charting ====
+  mostly >60%          n  525 | architecture 0.88 | NEWS 0.82 | diff +0.06 | discordant 68 vs 34 | p 0.000493
+  often 30-60%         n  136 | architecture 0.85 | NEWS 0.65 | diff +0.20 | discordant 34 vs 7 | p 1.27e-05
+  rarely <10%          n  168 | architecture 0.80 | NEWS 0.67 | diff +0.13 | discordant 35 vs 13 | p 0.00104
+  sometimes 10-30%     n  164 | architecture 0.77 | NEWS 0.55 | diff +0.23 | discordant 42 vs 5 | p 1.23e-08
+
+==== Hospitals with >= 10 vasopressor-first patients: 32 ====
+  architecture >= NEWS in 0.84 of them; difference median +0.08 (IQR +0.00 to +0.21); worst -0.20, best +0.38

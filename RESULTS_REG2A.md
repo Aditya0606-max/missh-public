@@ -8,3 +8,9 @@ Whole-ward total: 1532 vs NEWS 1485 (1.10) / 1590 (1.29): about even.
 Ventilation-first: frozen 0.75 vs NEWS 0.83; S/F-forward B 0.87 vs 0.87 (matched); A in 'mostly' hospitals 0.91 vs 0.84.
 Low-SI Kranthi 0.62 vs 0.53; late crossers 0.19 vs 0.31 (n 75); Naveen 0.56 (0.9 h); combined 0.93 vs 1.00 (n 42).
 Paired timing mostly same hour; precision 0.34 vs 0.36; load 14.3 vs 13.1 per 20-bed shift; first reading pressure 0.86.
+
+POST HOC (exploratory) hospital consistency, vasopressor-first: re-run reproduced 0.845 vs 0.724 exactly. Architecture ahead in every
+split: region +0.07 to +0.19; bed size +0.10 to +0.20; teaching +0.08 / non-teaching +0.13; oxygen charting +0.06 (mostly) to +0.23
+(sometimes). Hospitals with >= 10 vasopressor-first patients (32): architecture >= NEWS in 0.84 (27/32); median +0.08 (IQR 0 to +0.21);
+range -0.20 to +0.38. Smallest lead where oxygen is charted most (NEWS oxygen points effective). Cautions: post hoc, multiple comparisons,
+cost matched overall not per subgroup.
