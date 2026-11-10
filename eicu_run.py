@@ -74,3 +74,10 @@ an = src[src.index("def nz(v)"):]
 s0, s1 = an.index('print("\\n==== NAVEEN'), an.index('print("\\n==== NEWS re-check, matched')
 an = (an[:s0] + NAVEEN_EICU + "\n" + an[s1:]).replace("c14g_kranthi.csv", "eicu_slip.csv")
 exec(an)
+print("\n==== VENTILATION-FIRST by hospital oxygen-charting band ====")
+HB = pd.read_csv(f"{P}_hosp_band.csv").set_index("sid").band
+L["_vA"], L["_vB"] = list(VER.values())[0], list(VER.values())[1]
+S_ = L[L.who == "Sundar"]; cats = ["rarely <10%", "sometimes 10-30%", "often 30-60%", "mostly >60%"]
+for col, lab in [("arch", "frozen alarm"), ("_vA", "S/F-forward A"), ("_vB", "S/F-forward B"), ("newsA", "full NEWS (frozen cost)")]:
+    ok, _ = caught(S_, col); b = HB.reindex(ok.index)
+    print(f"  {lab:24s} " + " | ".join(f"{k} {ok[b == k].mean():.2f} (n{int((b == k).sum())})" for k in cats))

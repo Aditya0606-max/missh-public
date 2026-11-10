@@ -151,3 +151,4 @@ flow, device; min GCS; hours -12..95) -> eicu_run.py: Ajay pseudo-tip = random d
 (5-72 h), capped at LOS; windows to min(tip, 72 h); oxygen mapping, frozen anchors, S/F, effort, NEWS as specified; then the
 C25 rehearsal analysis code unchanged, with eICU Naveen (route from vaso/vent times) and slipper (averaged road 3-h >= 0.53;
 never or < 2 h before tip) reports substituted. Checked by BigQuery dry run and on synthetic data only.
+- THRESHOLD FIXED (2026-11-09, before signing): primary supported if one-sided exact McNemar p < 0.025 (replaces 0.05).
